@@ -1,0 +1,18 @@
+Source: isodventures
+Section: main/misc
+Priority: extra
+Maintainer: Paul Wolneykien <p.wolneykien@metrotek.spb.ru>
+Build-Depends: debhelper:all (>= 9.0.0), dh-autoreconf:all
+Standards-Version: 3.9.2
+Homepage: http://metrotek.spb.ru/code/isodventures
+
+Package: isodventures
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A space story
+
+Package: isodventures-dbg
+Architecture: any
+Depends: isodventures
+Description: A space story
+ This package contains the debugging information (symbols).
